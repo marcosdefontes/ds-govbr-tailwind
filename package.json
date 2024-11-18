@@ -10,6 +10,8 @@
     "keywords": [
       "tailwindcss",
       "theme",
+      "design-system",
+      "gov.br",
       "colors"
     ],
     "peerDependencies": {

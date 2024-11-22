@@ -4,23 +4,32 @@
     "description": "Gov.BR Design System Tailwind CSS theme configuration",
     "main": "theme.js",
     "files": [
-      "theme.js",
-      "colors.js"
+        "theme.js",
+        "colors.js"
     ],
     "keywords": [
-      "tailwindcss",
-      "theme",
-      "design-system",
-      "gov.br",
-      "colors"
+        "tailwindcss",
+        "theme",
+        "design-system",
+        "gov.br",
+        "colors"
     ],
     "peerDependencies": {
-      "tailwindcss": ">=3.0.0"
+        "tailwindcss": ">=3.0.0"
+    },
+    "devDependencies": {
+        "cz-conventional-changelog": "^3.3.0",
+        "node-html-parser": "^6.1.13"
     },
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "publishConfig": {
-      "access": "public"
+        "access": "public"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
-  }
+}

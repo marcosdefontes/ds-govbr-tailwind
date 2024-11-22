@@ -1,35 +1,35 @@
 {
-    "name": "ds-govbr-tailwind",
-    "version": "1.2.0",
-    "description": "Gov.BR Design System Tailwind CSS theme configuration",
-    "main": "theme.js",
-    "files": [
-        "theme.js",
-        "colors.js"
-    ],
-    "keywords": [
-        "tailwindcss",
-        "theme",
-        "design-system",
-        "gov.br",
-        "colors"
-    ],
-    "peerDependencies": {
-        "tailwindcss": ">=3.0.0"
-    },
-    "devDependencies": {
-        "cz-conventional-changelog": "^3.3.0",
-        "node-html-parser": "^6.1.13"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "publishConfig": {
-        "access": "public"
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
+  "name": "ds-govbr-tailwind",
+  "version": "1.2.0",
+  "description": "Gov.BR Design System Tailwind CSS theme configuration",
+  "main": "theme.js",
+  "files": [
+    "theme.js",
+    "colors.js"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "theme",
+    "design-system",
+    "gov.br",
+    "colors"
+  ],
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "node-html-parser": "^6.1.13"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
+  }
 }

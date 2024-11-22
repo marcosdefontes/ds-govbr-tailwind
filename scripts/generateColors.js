@@ -1,6 +1,6 @@
 const { parse } = require("node-html-parser");
 const { readFileSync, writeFileSync } = require("fs");
-const COLOR_FOLDER = "/colors";
+const COLOR_FOLDER = "/theme/colors";
 
 const snakeToCamel = str =>
   str.toLowerCase().replace(/([-_][a-z])/g, group =>
@@ -58,7 +58,7 @@ function createColorIndexFile(colors) {
     exportLines += `\t"${key}" : {... ${colorVar} }, \n`
   }
   const moduleContent = `${importLines}\nmodule.exports = {\n${exportLines}};`
-  writeFileSync(`${process.cwd()}/colors.js`, moduleContent)
+  writeFileSync(`${process.cwd()}/theme/colors.js`, moduleContent)
   console.log("Index color file created.")
 }
 

@@ -19,7 +19,8 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
-    "node-html-parser": "^6.1.13"
+    "node-html-parser": "^6.1.13",
+    "standard-version": "^9.5.0"
   },
   "scripts": {
     "release": "standard-version"

@@ -58,7 +58,7 @@ function createColorIndexFile(colors) {
     exportLines += `\t"${key}" : {... ${colorVar} }, \n`
   }
   const moduleContent = `${importLines}\nmodule.exports = {\n${exportLines}};`
-  writeFileSync(`${process.cwd()}/theme/colors.js`, moduleContent)
+  writeFileSync(`${process.cwd()}/theme/colors-base.js`, moduleContent)
   console.log("Index color file created.")
 }
 

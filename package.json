@@ -23,6 +23,7 @@
     "standard-version": "^9.5.0"
   },
   "scripts": {
+    "generate-colors": "node ./scripts/generateColors.js",
     "release": "standard-version"
   },
   "publishConfig": {

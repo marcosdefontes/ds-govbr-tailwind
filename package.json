@@ -25,7 +25,7 @@
   "scripts": {
     "generate-colors": "node ./scripts/generateColors.js",
     "release": "standard-version",
-    "publish": "git push --follow-tags origin main && npm publish"
+    "pub": "git push --follow-tags origin main && npm publish"
   },
   "publishConfig": {
     "access": "public"

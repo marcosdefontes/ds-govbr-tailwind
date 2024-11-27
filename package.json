@@ -3,10 +3,6 @@
   "version": "1.3.2",
   "description": "Gov.BR Design System Tailwind CSS theme configuration",
   "main": "theme.js",
-  "files": [
-    "theme.js",
-    "colors.js"
-  ],
   "keywords": [
     "tailwindcss",
     "theme",

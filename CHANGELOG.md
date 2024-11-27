@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/marcosdefontes/ds-govbr-tailwind/compare/v1.3.1...v1.3.2) (2024-11-27)
+
+
+### Bug Fixes
+
+* publish script triggered by npm publish --access public, running recursively ([47ad223](https://github.com/marcosdefontes/ds-govbr-tailwind/commit/47ad223938bf72b2ce62798e005a7ff96e482ced))
+
 ### [1.3.1](https://github.com/marcosdefontes/ds-govbr-tailwind/compare/v1.3.0...v1.3.1) (2024-11-25)
 
 ## [1.3.0](https://github.com/marcosdefontes/ds-govbr-tailwind/compare/v1.2.1...v1.3.0) (2024-11-25)

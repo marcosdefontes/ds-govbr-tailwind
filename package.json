@@ -1,6 +1,6 @@
 {
   "name": "ds-govbr-tailwind",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Gov.BR Design System Tailwind CSS theme configuration",
   "main": "theme.js",
   "keywords": [
